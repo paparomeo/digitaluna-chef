@@ -1,0 +1,7 @@
+{
+  "set_fqdn": "blog.digitaluna.net",
+
+  "run_list": [
+    "recipe[etckeeper]",
+  ]
+}
