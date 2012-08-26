@@ -26,5 +26,6 @@ end
 # commit the base version of /etc
 execute 'etckeeper_initial_commit' do
     command 'etckeeper commit "Base version."'
+    not_if 'git diff --cached --exit-code', :cwd => '/etc'
     action :run
 end
