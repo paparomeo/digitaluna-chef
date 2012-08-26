@@ -13,5 +13,7 @@ end
 
 # restart sshd to reload configuration
 service 'ssh' do
-    action :restart
+    provider Chef::Provider::Service::Upstart
+    supports :status => true, :restart => true, :reload => true
+    action :reload
 end
