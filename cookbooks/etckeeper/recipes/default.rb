@@ -18,13 +18,13 @@ end
 
 # initialise the git repository for etckeeper
 execute 'etckeeper_init' do
-  command 'etckeeper init'
-  creates '/etc/.git'
-  action :run
+    command 'etckeeper init'
+    creates '/etc/.git'
+    action :run
 end
 
 # commit the base version of /etc
 execute 'etckeeper_initial_commit' do
-  command 'etckeeper commit "Base version."'
-  action :run
+    command 'etckeeper commit "Base version."'
+    action :run
 end
