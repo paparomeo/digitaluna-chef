@@ -2,6 +2,7 @@
   "set_fqdn": "blog.digitaluna.net",
 
   "run_list": [
+    "recipe[chef::disable-chef-client]",
     "recipe[etckeeper]"
   ]
 }
