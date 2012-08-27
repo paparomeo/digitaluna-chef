@@ -6,6 +6,7 @@
     "recipe[etckeeper]",
     "recipe[openssh::reconfigure-sshd]",
     "recipe[acpid]",
-    "recipe[byobu]"
+    "recipe[byobu]",
+    "recipe[vim]"
   ]
 }
