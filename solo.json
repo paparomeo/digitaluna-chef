@@ -5,6 +5,7 @@
     "recipe[chef::disable-chef-client]",
     "recipe[etckeeper]",
     "recipe[openssh::reconfigure-sshd]",
-    "recipe[byobu]"	
+    "recipe[acpid]",
+    "recipe[byobu]"
   ]
 }
