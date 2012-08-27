@@ -8,6 +8,7 @@
     "recipe[acpid]",
     "recipe[byobu]",
     "recipe[vim]",
-    "recipe[htop]"
+    "recipe[htop]",
+    "recipe[multitail]"
   ]
 }
