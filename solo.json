@@ -4,6 +4,7 @@
   "run_list": [
     "recipe[chef::disable-chef-client]",
     "recipe[etckeeper]",
+    "recipe[ufw]",
     "recipe[openssh::reconfigure-sshd]",
     "recipe[acpid]",
     "recipe[byobu]",
