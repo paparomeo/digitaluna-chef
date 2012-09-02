@@ -4,3 +4,6 @@
 [submodule "cookbooks/firewall"]
 	path = cookbooks/firewall
 	url = git://github.com/opscode-cookbooks/firewall.git
+[submodule "cookbooks/apache2"]
+	path = cookbooks/apache2
+	url = git://github.com/opscode-cookbooks/apache2.git
